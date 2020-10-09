@@ -35,6 +35,7 @@ import {
 function ExamplesNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
+  const [navbarBrand, setNavbarBrand] = React.useState("")
 
   const toggleNavbarCollapse = () => {
     setNavbarCollapse(!navbarCollapse);
@@ -48,11 +49,13 @@ function ExamplesNavbar() {
         document.body.scrollTop > 299
       ) {
         setNavbarColor("");
+        setNavbarBrand("")
       } else if (
         document.documentElement.scrollTop < 300 ||
         document.body.scrollTop < 300
       ) {
         setNavbarColor("navbar-transparent");
+        setNavbarBrand("navbarBrand")
       }
     };
 
@@ -77,7 +80,7 @@ function ExamplesNavbar() {
             title="Best Barber Ia Legian Seminyak Bali"
             tag={Link}
           >
-            <div class="test-thing">Barber Ia</div>
+            <div className={navbarBrand}>Barber Ia</div>
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}

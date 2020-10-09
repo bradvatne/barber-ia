@@ -6,3 +6,30 @@
     font-family: Montserrat;
     text-transform: lowercase;
 }
+
+.hero-mask {
+    filter: brightness(0) invert(1);
+    opacity: 0.7;
+}
+
+.sticky-bottom {
+    margin-top: 400px;
+}
+
+.navbarBrand {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .navbar-custom {
+        display: block;
+    }
+}
+
+.text-blue {
+    color: #51bcda;
+}
+
+.hide-hero {
+    display: none;
+}

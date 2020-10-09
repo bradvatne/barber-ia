@@ -57,7 +57,7 @@ function LandingPage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="title">Best Cheap Barber in Bali</h2>
+                <h2 className="title">The Barber with the Best Deal in Bali</h2>
                 <h5 className="description">
                   At Barber Ia, you get the best for less. Stop by when you are nearby Legian, Seminyak, or Kuta for an authentic local barber experience. Whether you're looking for a quick shave, a fresh fade, or a completly new do, we'll get you sorted at an unbeatable price.
                 </h5>
@@ -123,9 +123,7 @@ function LandingPage() {
         </div>
         <div className="section section-dark text-center">
           <Container>
-            <h2 className="title">Let's talk about us</h2>
-            <Row>
-              <Col md="4">
+            <h2 className="title">About Us</h2>
                 <Card className="card-profile card-plain">
                   <div className="card-avatar">
                     <a href="#pablo" onClick={(e) => e.preventDefault()}>
@@ -175,112 +173,6 @@ function LandingPage() {
                     </Button>
                   </CardFooter>
                 </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-profile card-plain">
-                  <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <img
-                        alt="..."
-                        src={require("assets/img/faces/joe-gardner-2.jpg")}
-                      />
-                    </a>
-                  </div>
-                  <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <div className="author">
-                        <CardTitle tag="h4">Sophie West</CardTitle>
-                        <h6 className="card-category">Designer</h6>
-                      </div>
-                    </a>
-                    <p className="card-description text-center">
-                      A group becomes a team when each member is sure enough of
-                      himself and his contribution to praise the skill of the
-                      others. No one can whistle a symphony. It takes an
-                      orchestra to play it.
-                    </p>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon btn-neutral"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
-                    </Button>
-                  </CardFooter>
-                </Card>
-              </Col>
-              <Col md="4">
-                <Card className="card-profile card-plain">
-                  <div className="card-avatar">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <img
-                        alt="..."
-                        src={require("assets/img/faces/erik-lucatero-2.jpg")}
-                      />
-                    </a>
-                  </div>
-                  <CardBody>
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <div className="author">
-                        <CardTitle tag="h4">Robert Orben</CardTitle>
-                        <h6 className="card-category">Developer</h6>
-                      </div>
-                    </a>
-                    <p className="card-description text-center">
-                      The strength of the team is each individual member. The
-                      strength of each member is the team. If you can laugh
-                      together, you can work together, silence isn’t golden,
-                      it’s deadly.
-                    </p>
-                  </CardBody>
-                  <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon btn-neutral"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
-                    </Button>
-                  </CardFooter>
-                </Card>
-              </Col>
-            </Row>
           </Container>
         </div>
         <div className="section landing-section">

@@ -47,16 +47,18 @@ function LandingPageHeader() {
           backgroundImage:
             "url(" + require("assets/img/hero-image-2.jpg") + ")",
         }}
-        className="page-header page-header"
+        className="page-header"
         data-parallax={true}
         ref={pageHeader}
       >
         <div className="filter" />
-        <Container>
-          <div className="motto text-center">
-            <h1 class="text-left">barber ia</h1>
+        
+          <div className="motto text-center sticky-bottom">
+            <img src={require("assets/img/hero-logo-blue.png")} alt="unloaded"/>
+            <h1>barber <span className="text-blue">ia</span></h1>
+            
           </div>
-        </Container>
+        
       </div>
     </>
   );
