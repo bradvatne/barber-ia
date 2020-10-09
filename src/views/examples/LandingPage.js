@@ -137,7 +137,7 @@ function LandingPage() {
           </div>
         </ScrollableAnchor>
         <ScrollableAnchor id={"about"}>
-        <div className="section section-dark text-center">
+          <div className="section section-dark text-center">
             <Container>
               <h2 className="title">About Us</h2>
               <Card className="card-profile card-plain">
@@ -190,10 +190,10 @@ function LandingPage() {
                 </CardFooter>
               </Card>
             </Container>
-        </div>
+          </div>
         </ScrollableAnchor>
         <ScrollableAnchor id={"location"}>
-        <div className="section landing-section">
+          <div className="section landing-section">
             <Container>
               <h2 className="text-center">Visit Us Today</h2>
               <br />
@@ -201,10 +201,25 @@ function LandingPage() {
                 <LeafMap />
               </div>
             </Container>
-        </div>
+          </div>
         </ScrollableAnchor>
+        <div className="section section-dark footer-text">
+          <Container>
+            <Row>
+              <Col md="6">
+                <div>
+                  <p>Text left</p>
+                  <p>Text left</p>
+                  <p>Text left</p>
+                </div>
+              </Col>
+              <Col md="6">
+                <p className="text-md-right">Text Right</p>
+              </Col>
+            </Row>
+          </Container>
+        </div>
       </div>
-      <DemoFooter />
     </>
   );
 }
