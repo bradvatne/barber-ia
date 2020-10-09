@@ -136,11 +136,11 @@ function LandingPage() {
                   <a href="#pablo" onClick={(e) => e.preventDefault()}>
                     <div className="author">
                       <CardTitle tag="h4">Tedi Alfan</CardTitle>
-                      <h6 className="card-category">Head Barber</h6>
+                      <h6 className="card-category"><span className="text-blue">Head Barber</span></h6>
                     </div>
                   </a>
                   <p className="card-description text-center">
-                    I moved to Bali from 3 years ago from Jember, East Java with my wife and my child. Following my passion for hair design, I decided to open a shop where I serve locals and tourists with clean, great looking haircuts for the cheapest price in Bali. I take great pride in my work and I love to get people looking and feeling their best without breaking their wallets. I hope to see you soon!
+                    I moved to Bali 3 years ago from Jember, East Java with my wife and my child. Following my passion for hair design, I decided to open a shop where I serve locals and tourists with clean, great looking haircuts for the cheapest price in Bali. I take great pride in my work and I love to get people looking and feeling their best without breaking their wallets. I hope to see you soon!
                   </p>
                 </CardBody>
                
@@ -155,7 +155,7 @@ function LandingPage() {
               <hr/>
               <p className="text-center">
               <strong>We're easy to find on the Southwest corner of Jl. Nakula and Jl. Pandawa, beside Angel Ink.</strong><br/>
-              <strong>Just look for the sign that says "Potong Rambut" (Haircut)</strong><br/>
+              <strong>Just look for the sign that says "Potong Rambut"</strong><br/>
               <strong>Open 9:00 to 17:00 daily (Closed Sundays)</strong>
               </p>
               <br />

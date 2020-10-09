@@ -80,7 +80,7 @@ function ExamplesNavbar() {
             title="Best Barber Ia Legian Seminyak Bali"
             tag={Link}
           >
-            <div className={navbarBrand}>Barber Ia</div>
+            <div className={navbarBrand}>barber <span className="text-blue">ia</span></div>
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -103,7 +103,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink 
                 href="#prices">
-                <i className="nc-icon nc-money-coins" /> Pricing
+                <i className="nc-icon nc-money-coins" /> <span className="lowercase">Pricing</span>
               </NavLink>
             </NavItem>
             <NavItem>
@@ -139,7 +139,7 @@ function ExamplesNavbar() {
                 title="Follow us on Instagram"
               >
                 <i className="fa fa-instagram" />
-                <p className="d-lg-none">Location</p>
+                <p className="d-lg-none">Instagram</p>
               </NavLink>
             </NavItem>
           </Nav>
