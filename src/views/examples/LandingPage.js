@@ -26,6 +26,8 @@ import {
   CardFooter,
   CardTitle,
   Container,
+  CardHeader,
+  CardText,
   Row,
   Col,
 } from "reactstrap";
@@ -60,6 +62,7 @@ function LandingPage() {
                   <h2 className="title">
                     The Barber with the Best Deal in Bali
                   </h2>
+                  <hr/>
                   <h5 className="description">
                     At Barber Ia, you get the best for less. Stop by when you
                     are nearby Legian, Seminyak, or Kuta for an authentic local
@@ -74,63 +77,43 @@ function LandingPage() {
               <br />
               <Row>
                 <Col sm="4">
-                  <div className="info">
-                    <div className="icon icon-info">
-                      <i className="nc-icon nc-user-run" />
-                    </div>
-                    <div className="description">
-                      <h4 className="info-title">Quick Trim</h4>
-                      <p className="description">
-                        <br />
+                  <Card>
+                    <CardHeader>Quick Trim</CardHeader>
+                    <CardBody>
+                      <i className="icon-large icon icon-info nc-icon nc-user-run" />
+                      <CardText>
                         For those times when you're in a rush and just want a
                         quick haircut.
-                        <br />
-                        <br />
-                      </p>
-                      <Button className="btn-link" color="info" href="#pablo">
-                        20 000 rp
-                      </Button>
-                    </div>
-                  </div>
+                      </CardText>
+                      <Button color="primary">20 000 rp</Button>
+                    </CardBody>
+                  </Card>
                 </Col>
                 <Col sm="4">
-                  <div className="info">
-                    <div className="icon icon-info">
-                      <i className="nc-icon nc-scissors" />
-                    </div>
-                    <div className="description">
-                      <h4 className="info-title">Straight-Razor Shave</h4>
-                      <br />
-                      <p>
+                  <Card>
+                    <CardHeader>Full Package</CardHeader>
+                    <CardBody>
+                      <i className="icon icon-info icon-large nc-icon nc-scissors" />
+                      <CardText>
+                        Treat yourself to a full haircut and complete the look
+                        with a fresh straight razor shave.
+                      </CardText>
+                      <Button color="primary">30 000 rp</Button>
+                    </CardBody>
+                  </Card>
+                </Col>
+                <Col sm="4">
+                  <Card>
+                    <CardHeader>Straight-Razor Shave</CardHeader>
+                    <CardBody>
+                      <i className="icon-large icon icon-info nc-icon nc-user-run" />
+                      <CardText>
                         Clean up your look with a classic soapy straight razor
                         shave.
-                        <br />
-                        <br />
-                      </p>
-                      <Button className="btn-link" color="info" href="#pablo">
-                        20 000 rp
-                      </Button>
-                    </div>
-                  </div>
-                </Col>
-                <Col sm="4">
-                  <div className="info">
-                    <div className="icon icon-info">
-                      <i className="nc-icon nc-chart-bar-32" />
-                    </div>
-                    <div className="description">
-                      <h4 className="info-title">Full Package</h4>
-                      <br />
-                      <p>
-                        Treat yourself to a full haircut or fade with
-                        razer-clean lines, and complete the look with a fresh
-                        straight razor shave.
-                      </p>
-                      <Button className="btn-link" color="info" href="#pablo">
-                        30 000 rp
-                      </Button>
-                    </div>
-                  </div>
+                      </CardText>
+                      <Button color="primary">20 000 rp</Button>
+                    </CardBody>
+                  </Card>
                 </Col>
               </Row>
             </Container>
@@ -206,15 +189,34 @@ function LandingPage() {
         <div className="section section-dark footer-text">
           <Container>
             <Row>
-              <Col md="6">
+              <Col sm="4">
                 <div>
-                  <p>Text left</p>
-                  <p>Text left</p>
-                  <p>Text left</p>
+                  <h1>
+                    barber <span className="text-blue">ia</span>
+                  </h1>
                 </div>
               </Col>
-              <Col md="6">
-                <p className="text-md-right">Text Right</p>
+              <Col sm="4">
+                <div>
+                  <h3>Contact Information</h3>
+                  <hr/>
+                  <p>+62 012 3456 798</p>
+                  <p>barberiabali@gmail.com</p>
+                  <p>
+                    Beside Angel Ink Jl. Pandawa No.3, Legian, Kuta, Kabupaten Badung,
+                    Bali 80361
+                  </p>
+                </div>
+              </Col>
+              <Col sm="4">
+                <div>
+                  <h3>Links</h3>
+                  <hr/>
+                  <p>Facebook</p>
+                  <p>Instagram</p>
+                  <p>Google Reviews</p>
+                  <p>Made with love by Brad Vatne</p>
+                </div>
               </Col>
             </Row>
           </Container>
