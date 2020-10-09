@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/barber-ia/static/css/main.d2bdb7db.chunk.css",
-    "main.js": "/barber-ia/static/js/main.00be5de9.chunk.js",
-    "main.js.map": "/barber-ia/static/js/main.00be5de9.chunk.js.map",
+    "main.js": "/barber-ia/static/js/main.ecc44c6e.chunk.js",
+    "main.js.map": "/barber-ia/static/js/main.ecc44c6e.chunk.js.map",
     "runtime-main.js": "/barber-ia/static/js/runtime-main.30d522f0.js",
     "runtime-main.js.map": "/barber-ia/static/js/runtime-main.30d522f0.js.map",
     "static/js/2.56e5da2a.chunk.js": "/barber-ia/static/js/2.56e5da2a.chunk.js",
     "static/js/2.56e5da2a.chunk.js.map": "/barber-ia/static/js/2.56e5da2a.chunk.js.map",
     "index.html": "/barber-ia/index.html",
-    "precache-manifest.a18e40e5fc9743431899453d1a5d9f9d.js": "/barber-ia/precache-manifest.a18e40e5fc9743431899453d1a5d9f9d.js",
+    "precache-manifest.c5ac59f0489745d3ec4fb228b8fe1dc5.js": "/barber-ia/precache-manifest.c5ac59f0489745d3ec4fb228b8fe1dc5.js",
     "service-worker.js": "/barber-ia/service-worker.js",
     "static/css/main.d2bdb7db.chunk.css.map": "/barber-ia/static/css/main.d2bdb7db.chunk.css.map",
     "static/js/2.56e5da2a.chunk.js.LICENSE.txt": "/barber-ia/static/js/2.56e5da2a.chunk.js.LICENSE.txt",
-    "static/js/main.00be5de9.chunk.js.LICENSE.txt": "/barber-ia/static/js/main.00be5de9.chunk.js.LICENSE.txt",
+    "static/js/main.ecc44c6e.chunk.js.LICENSE.txt": "/barber-ia/static/js/main.ecc44c6e.chunk.js.LICENSE.txt",
     "static/media/ayo-ogunseinde-2.jpg": "/barber-ia/static/media/ayo-ogunseinde-2.bfc688ca.jpg",
     "static/media/clem-onojeghuo-2.jpg": "/barber-ia/static/media/clem-onojeghuo-2.bb4b9ac9.jpg",
     "static/media/fabio-mangione.jpg": "/barber-ia/static/media/fabio-mangione.f26c34bb.jpg",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.30d522f0.js",
     "static/js/2.56e5da2a.chunk.js",
     "static/css/main.d2bdb7db.chunk.css",
-    "static/js/main.00be5de9.chunk.js"
+    "static/js/main.ecc44c6e.chunk.js"
   ]
 }

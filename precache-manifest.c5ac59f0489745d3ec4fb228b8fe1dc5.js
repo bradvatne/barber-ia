@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a5043b299c52d15abc4e784057ff7a17",
+    "revision": "f2656bd9f7c0363b25e4ae7c5d2d7529",
     "url": "/barber-ia/index.html"
   },
   {
-    "revision": "9dda50200480abfb6e13",
+    "revision": "5b392eae416968f08ce7",
     "url": "/barber-ia/static/css/main.d2bdb7db.chunk.css"
   },
   {
@@ -16,12 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/barber-ia/static/js/2.56e5da2a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9dda50200480abfb6e13",
-    "url": "/barber-ia/static/js/main.00be5de9.chunk.js"
+    "revision": "5b392eae416968f08ce7",
+    "url": "/barber-ia/static/js/main.ecc44c6e.chunk.js"
   },
   {
     "revision": "30f942bb7783c4b076a0017ec0876fab",
-    "url": "/barber-ia/static/js/main.00be5de9.chunk.js.LICENSE.txt"
+    "url": "/barber-ia/static/js/main.ecc44c6e.chunk.js.LICENSE.txt"
   },
   {
     "revision": "6d581345aca7abb13a61",
