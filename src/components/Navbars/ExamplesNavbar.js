@@ -35,7 +35,7 @@ import {
 function ExamplesNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
-  const [navbarBrand, setNavbarBrand] = React.useState("")
+  const [navbarBrand, setNavbarBrand] = React.useState("");
 
   const toggleNavbarCollapse = () => {
     setNavbarCollapse(!navbarCollapse);
@@ -49,13 +49,13 @@ function ExamplesNavbar() {
         document.body.scrollTop > 299
       ) {
         setNavbarColor("");
-        setNavbarBrand("")
+        setNavbarBrand("");
       } else if (
         document.documentElement.scrollTop < 300 ||
         document.body.scrollTop < 300
       ) {
         setNavbarColor("navbar-transparent");
-        setNavbarBrand("navbarBrand")
+        setNavbarBrand("navbarBrand");
       }
     };
 
@@ -80,7 +80,9 @@ function ExamplesNavbar() {
             title="Best Barber Ia Legian Seminyak Bali"
             tag={Link}
           >
-            <div className={navbarBrand}>barber <span className="text-blue">ia</span></div>
+            <div className={navbarBrand}>
+              barber <span className="text-blue">ia</span>
+            </div>
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -101,29 +103,25 @@ function ExamplesNavbar() {
         >
           <Nav navbar>
             <NavItem>
-              <NavLink 
-                href="#prices">
-                <i className="nc-icon nc-money-coins" /> <span className="lowercase">Pricing</span>
+              <NavLink href="#prices">
+                <i className="nc-icon nc-money-coins" />{" "}
+                <span className="lowercase">Pricing</span>
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink
-                href="#about"
-              >
+              <NavLink href="#about">
                 <i className="nc-icon nc-book-bookmark" /> About
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink
-                href="#location"
-              >
+              <NavLink href="#location">
                 <i className="nc-icon nc-pin-3" /> Location
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                href="#"
                 target="_blank"
                 title="Like us on Facebook"
               >
@@ -134,7 +132,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                href="#"
                 target="_blank"
                 title="Follow us on Instagram"
               >
