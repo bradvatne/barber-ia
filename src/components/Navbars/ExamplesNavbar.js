@@ -101,22 +101,21 @@ function ExamplesNavbar() {
         >
           <Nav navbar>
             <NavItem>
-              <NavLink to="/index" tag={Link}>
-                <i className="nc-icon nc-single-2" /> About
+              <NavLink 
+                href="#prices">
+                <i className="nc-icon nc-money-coins" /> Pricing
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
-                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-examples-navbar"
-                target="_blank"
+                href="#about"
               >
-                <i className="nc-icon nc-book-bookmark" /> Pricing
+                <i className="nc-icon nc-book-bookmark" /> About
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink
-                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-examples-navbar"
-                target="_blank"
+                href="#location"
               >
                 <i className="nc-icon nc-pin-3" /> Location
               </NavLink>

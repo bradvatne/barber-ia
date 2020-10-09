@@ -54,7 +54,7 @@ function LandingPage() {
       <ExamplesNavbar />
       <LandingPageHeader />
       <div className="main">
-        <div className="section text-center">
+        <div id="prices"className="section text-center">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
@@ -134,7 +134,7 @@ function LandingPage() {
             </Row>
           </Container>
         </div>
-        <div className="section section-dark text-center">
+        <div id="about" className="section section-dark text-center">
           <Container>
             <h2 className="title">About Us</h2>
             <Card className="card-profile card-plain">
@@ -188,7 +188,7 @@ function LandingPage() {
             </Card>
           </Container>
         </div>
-        <div className="section landing-section">
+        <div id="location" className="section landing-section">
           <Container>
               <h2 className="text-center">Visit Us Today</h2><br/>
               <div className="leaflet-container">
