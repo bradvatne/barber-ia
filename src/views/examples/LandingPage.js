@@ -16,14 +16,13 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React, { Component } from "react";
+import React from "react";
 
 // reactstrap components
 import {
   Button,
   Card,
   CardBody,
-  CardFooter,
   CardTitle,
   Container,
   CardHeader,
@@ -61,7 +60,7 @@ function LandingPage() {
                   <h2 className="title">
                     The Barber with the Best Deal in Bali
                   </h2>
-                  <hr/>
+                  <hr />
                   <h5 className="description">
                     At Barber Ia, you get the best for less. Stop by when you
                     are nearby Legian, Seminyak, or Kuta for an authentic local
@@ -77,7 +76,9 @@ function LandingPage() {
               <Row>
                 <Col sm="4">
                   <Card>
-                    <CardHeader><span className="custom-card-title">Quick Trim</span></CardHeader>
+                    <CardHeader>
+                      <span className="custom-card-title">Quick Trim</span>
+                    </CardHeader>
                     <CardBody>
                       <i className="icon-large icon icon-info nc-icon nc-user-run" />
                       <CardText>
@@ -90,7 +91,9 @@ function LandingPage() {
                 </Col>
                 <Col sm="4">
                   <Card>
-                    <CardHeader><span className="custom-card-title">Full Package</span></CardHeader>
+                    <CardHeader>
+                      <span className="custom-card-title">Full Package</span>
+                    </CardHeader>
                     <CardBody>
                       <i className="icon icon-info icon-large nc-icon nc-scissors" />
                       <CardText>
@@ -103,7 +106,11 @@ function LandingPage() {
                 </Col>
                 <Col sm="4">
                   <Card>
-                    <CardHeader><span className="custom-card-title">Straight-Razor Shave</span></CardHeader>
+                    <CardHeader>
+                      <span className="custom-card-title">
+                        Straight-Razor Shave
+                      </span>
+                    </CardHeader>
                     <CardBody>
                       <i className="icon-large icon icon-info nc-icon nc-satisfied" />
                       <CardText>
@@ -122,28 +129,32 @@ function LandingPage() {
           <div className="section section-dark text-center">
             <Container>
               <h2 className="title">About Us</h2>
-              <hr/>
+              <hr />
               <Card className="card-profile card-plain">
                 <div className="card-avatar">
                   <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                    <img
-                      alt="..."
-                      src={require("assets/img/headshot.png")}
-                    />
+                    <img alt="..." src={require("assets/img/headshot.png")} />
                   </a>
                 </div>
                 <CardBody>
                   <a href="#pablo" onClick={(e) => e.preventDefault()}>
                     <div className="author">
                       <CardTitle tag="h4">Tedi Alfan</CardTitle>
-                      <h6 className="card-category"><span className="text-blue">Head Barber</span></h6>
+                      <h6 className="card-category">
+                        <span className="text-blue">Head Barber</span>
+                      </h6>
                     </div>
                   </a>
                   <p className="card-description text-center">
-                    I moved to Bali 3 years ago from Jember, East Java with my wife and my child. Following my passion for hair design, I decided to open a shop where I serve locals and tourists with clean, great looking haircuts for the cheapest price in Bali. I take great pride in my work and I love to get people looking and feeling their best without breaking their wallets. I hope to see you soon!
+                    I moved to Bali 3 years ago from Jember, East Java with my
+                    wife and my child. Following my passion for hair design, I
+                    decided to open a shop where I serve locals and tourists
+                    with clean, great looking haircuts for the cheapest price in
+                    Bali. I take great pride in my work and I love to get people
+                    looking and feeling their best without breaking their
+                    wallets. I hope to see you soon!
                   </p>
                 </CardBody>
-               
               </Card>
             </Container>
           </div>
@@ -152,11 +163,18 @@ function LandingPage() {
           <div className="section landing-section">
             <Container>
               <h2 className="text-center">Visit Us Today</h2>
-              <hr/>
+              <hr />
               <p className="text-center">
-              <strong>We're easy to find on the Southwest corner of Jl. Nakula and Jl. Pandawa, beside Angel Ink.</strong><br/>
-              <strong>Just look for the sign that says "Potong Rambut"</strong><br/>
-              <strong>Open 9:00 to 17:00 daily (Closed Sundays)</strong>
+                <strong>
+                  We're easy to find on the Southwest corner of Jl. Nakula and
+                  Jl. Pandawa, beside Angel Ink.
+                </strong>
+                <br />
+                <strong>
+                  Just look for the sign that says "Potong Rambut"
+                </strong>
+                <br />
+                <strong>Open 9:00 to 17:00 daily (Closed Sundays)</strong>
               </p>
               <br />
               <div className="leaflet-container">
@@ -174,24 +192,24 @@ function LandingPage() {
                     barber <span className="text-blue">ia</span>
                   </h1>
                 </div>
-                <br/>
+                <br />
               </Col>
               <Col sm="4">
                 <div>
                   <h3>Contact Information</h3>
-                  <hr/>
+                  <hr />
                   <p>+62 012 3456 798</p>
                   <p>barberiabali@gmail.com</p>
                   <p>
-                    Beside Angel Ink Jl. Pandawa No.3, Legian, Kuta, Kabupaten Badung,
-                    Bali 80361
+                    Beside Angel Ink Jl. Pandawa No.3, Legian, Kuta, Kabupaten
+                    Badung, Bali 80361
                   </p>
                 </div>
               </Col>
               <Col sm="4">
                 <div>
                   <h3>Links</h3>
-                  <hr/>
+                  <hr />
                   <p>Facebook</p>
                   <p>Instagram</p>
                   <p>Google Reviews</p>
