@@ -45,5 +45,9 @@
 
 .icon-large {
     font-size: 4rem;
-    color: 17a2b8;
+    color: #51bcda;
+}
+
+.custom-card-title {
+    font-size: 1.5rem;
 }

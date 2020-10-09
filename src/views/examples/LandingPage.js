@@ -35,7 +35,6 @@ import {
 // core components
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
 import LandingPageHeader from "components/Headers/LandingPageHeader.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
 
 // brad's custom plugins
 import { LeafMap } from "components/Leaflet/Map.js";
@@ -78,7 +77,7 @@ function LandingPage() {
               <Row>
                 <Col sm="4">
                   <Card>
-                    <CardHeader>Quick Trim</CardHeader>
+                    <CardHeader><span className="custom-card-title">Quick Trim</span></CardHeader>
                     <CardBody>
                       <i className="icon-large icon icon-info nc-icon nc-user-run" />
                       <CardText>
@@ -91,7 +90,7 @@ function LandingPage() {
                 </Col>
                 <Col sm="4">
                   <Card>
-                    <CardHeader>Full Package</CardHeader>
+                    <CardHeader><span className="custom-card-title">Full Package</span></CardHeader>
                     <CardBody>
                       <i className="icon icon-info icon-large nc-icon nc-scissors" />
                       <CardText>
@@ -104,9 +103,9 @@ function LandingPage() {
                 </Col>
                 <Col sm="4">
                   <Card>
-                    <CardHeader>Straight-Razor Shave</CardHeader>
+                    <CardHeader><span className="custom-card-title">Straight-Razor Shave</span></CardHeader>
                     <CardBody>
-                      <i className="icon-large icon icon-info nc-icon nc-user-run" />
+                      <i className="icon-large icon icon-info nc-icon nc-satisfied" />
                       <CardText>
                         Clean up your look with a classic soapy straight razor
                         shave.
@@ -123,54 +122,28 @@ function LandingPage() {
           <div className="section section-dark text-center">
             <Container>
               <h2 className="title">About Us</h2>
+              <hr/>
               <Card className="card-profile card-plain">
                 <div className="card-avatar">
                   <a href="#pablo" onClick={(e) => e.preventDefault()}>
                     <img
                       alt="..."
-                      src={require("assets/img/faces/clem-onojeghuo-3.jpg")}
+                      src={require("assets/img/headshot.png")}
                     />
                   </a>
                 </div>
                 <CardBody>
                   <a href="#pablo" onClick={(e) => e.preventDefault()}>
                     <div className="author">
-                      <CardTitle tag="h4">Henry Ford</CardTitle>
-                      <h6 className="card-category">Product Manager</h6>
+                      <CardTitle tag="h4">Tedi Alfan</CardTitle>
+                      <h6 className="card-category">Head Barber</h6>
                     </div>
                   </a>
                   <p className="card-description text-center">
-                    Teamwork is so important that it is virtually impossible for
-                    you to reach the heights of your capabilities or make the
-                    money that you want without becoming very good at it.
+                    I moved to Bali from 3 years ago from Jember, East Java with my wife and my child. Following my passion for hair design, I decided to open a shop where I serve locals and tourists with clean, great looking haircuts for the cheapest price in Bali. I take great pride in my work and I love to get people looking and feeling their best without breaking their wallets. I hope to see you soon!
                   </p>
                 </CardBody>
-                <CardFooter className="text-center">
-                  <Button
-                    className="btn-just-icon btn-neutral"
-                    color="link"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <i className="fa fa-twitter" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <i className="fa fa-google-plus" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <i className="fa fa-linkedin" />
-                  </Button>
-                </CardFooter>
+               
               </Card>
             </Container>
           </div>
@@ -179,6 +152,12 @@ function LandingPage() {
           <div className="section landing-section">
             <Container>
               <h2 className="text-center">Visit Us Today</h2>
+              <hr/>
+              <p className="text-center">
+              <strong>We're easy to find on the Southwest corner of Jl. Nakula and Jl. Pandawa, beside Angel Ink.</strong><br/>
+              <strong>Just look for the sign that says "Potong Rambut" (Haircut)</strong><br/>
+              <strong>Open 9:00 to 17:00 daily (Closed Sundays)</strong>
+              </p>
               <br />
               <div className="leaflet-container">
                 <LeafMap />
@@ -195,6 +174,7 @@ function LandingPage() {
                     barber <span className="text-blue">ia</span>
                   </h1>
                 </div>
+                <br/>
               </Col>
               <Col sm="4">
                 <div>
